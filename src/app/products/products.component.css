@@ -1,0 +1,33 @@
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: black;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+    color: white;
+}
+
+.item {
+    margin: 10px;
+    text-align: center;
+}
+
+.item a:hover {
+    color: #d5d5d5;
+}
+
+.no-bullets {
+    list-style: none;
+  }
+
+.container{
+    margin-right: 15%;
+}
+
+.arrow {
+    margin-top: 12px;
+}
